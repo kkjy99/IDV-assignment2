@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <title> IDV 2025 Assignment 2 </title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1> Data Visualization Techniques - Critique </h1>
+        </header>
+
+        <!-- Data Vizualization Example 1 --> 
+        <h2 style = "text-align: center; background-color: rgb(230, 230, 230);"> Visualization 
+            <a href = "https://www.visualcapitalist.com/global-co2-emissions-through-time-1950-2022/"> Example 1 </a>
+        </h2>
+
+        <div class = "critique">
+            <div class = "image"> 
+                <img src = "images/IDV Assignment 2 - viz 1.jpg" >
+            </div>
+    
+            <div class = "text"> 
+                <button type="button" class="collapsible">Background & Context</button>
+                <div class="content">
+                    <h3>
+                        Global CO2 emissions have been growing over the past 70 years, and despite existing policies and climate agreements in place,
+                        certain regions and/or countries are still significant contributors. This is likely due to the pursue of economic growth and 
+                        rapid industralization.
+                        <br>
+                        <br>
+                        Identifying the world's largest contributors can enable more targeted policies, and a better understanding of the roles of these 
+                        powerful nations in shaping the emissions landscape.
+                    </h3>
+                </div>
+
+                <button type="button" class="collapsible">Data Issues</button>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <strong style = "font-family: Cambria;"> Lack of Per Capita Data </strong>
+                            <ul style="list-style-type:circle;">
+                                <li style = "margin-top: 10px;">
+                                    <u> Potential misrepresentation of trends:</u> The data presented focuses on total emissions by each region/country 
+                                    and<strong> did not account for population sizes and differences</strong>, which could be misleading as some regions/countries
+                                    might have a larger population size and hence have larger contributions. 
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <button type="button" class="collapsible">Idiom Issues</button>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <strong style = "font-family: Cambria;"> Use of Stacked Area Chart </strong>
+                            <ul style="list-style-type:circle;">
+                                <li style = "margin-top: 10px;">
+                                    <u> Stacking of areas:</u> This could lead to <strong> misleading trends and perceptions</strong> as the <strong> areas will vary and shift based 
+                                    on the stacking order</strong>.
+                                    
+                                </li>
+                                <li style = "margin-top: 10px;">
+                                    <u> Order of stacking:</u> Often the category at the bottom is the one with the largest share of the total value.
+                                    The order of categories here however, seem to be determined by the absolute value of CO2 emissions in the year 2022, as seen by
+                                    how China and Asia are the bottom two categories even though the US and the European Union have larger cumulative CO2 emissions.
+                                </li>
+                                <li style = "margin-top: 10px;">
+                                    <u> Too many categories:</u> <strong> Multiple different colours</strong> are used to differentiate between the areas. This could lead to 
+                                    <strong> visual clutter and difficulty </strong> in reading the chart.
+                                </li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>
+                            <strong style = "font-family: Cambria;"> Presentation of Stacked Area Chart </strong>
+                            <ul style="list-style-type:circle;">
+                                <li style = "margin-top: 10px;">
+                                    <u> Starting origin:</u> Instead of starting the graph from the x-axis, the "origin" is located somewhere in the middle, in a bid to mimic the stacked
+                                    area graph as emissions from an emissions tower, to increase aesthetic appeal. However, this could contribute to <strong> mis-interpretation of the trends</strong>,
+                                    especially if one misunderstands the function of a stacked area chart, which in this case is to show the major contributors of global CO2 emissions.
+                                </li>
+                                <li style = "margin-top: 10px;">
+                                    <u> Additional x-axis:</u> With <strong> too many categories</strong>, there is likely a need for <strong> an additional x-axis</strong>
+                                    to enable viewers to follow the trend for categories at the top of the stacked chart.
+                                </li>
+                            </ul>
+                        </li>
+                      </ul>
+                </div>
+
+                <button type="button" class="collapsible">Possible Improvements</button>
+                <div class="content">
+                    <h3> 
+                        Alternative static chart types
+                      </h3>
+                      <ul>
+                        <li>
+                            <strong style = "font-family: Cambria; color: rgb(82, 82, 244);"> Start graph from the x-axis: </strong>
+                            This could provide a more clearer picture as <strong> mis-interpretations of the lines would be reduced</strong>. However, interpreting trends from
+                            stacked area charts could still be problematic as <strong> order of stacking could affect perceptions</strong>.
+                        </li>
+                        <br>
+                        <li>
+                            <strong style = "font-family: Cambria; color: rgb(82, 82, 244);"> 100% stacked bar chart or area chart: </strong>
+                            This could provide a <strong> clearer idea of the contributions (relative share) of each region/country to the total emissions</strong>.
+                        </li>
+                      </ul>
+                      <h3> 
+                        Use of an interactive chart
+                      </h3>
+                      <ul>
+                        <li>
+                            <strong style = "font-family: Cambria; color: rgb(82, 82, 244);"> Addition of interactive elements: </strong>
+                            Use <strong> multiple line charts</strong>, where each line represents CO2 emissions over time for each region/country. Providing viewers with the option to 
+                            <strong> toggle certain regions on and off (viewing) could enable better clarity and comparisons</strong>.
+                        </li>
+                      </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <br>
+        <hr>
+
+        <!-- Data Vizualization Example 2 -->
+        <h2 style = "text-align: center; background-color: rgb(230, 230, 230);"> Visualization 
+            <a href = "https://www.visualcapitalist.com/sp/mapped-life-expectancy-in-major-economies/"> Example 2 </a>
+        </h2>
+
+        <div class = "critique">
+            <div class = "image"> 
+                <img src = "images/IDV Assignment 2 - viz 2.jpg" >
+            </div>
+
+            <div class = "text">
+                <button type="button" class="collapsible"> Background & Context </button>
+                <div class="content">
+                    <h3>
+                        Trade can have an impact on life expectancy, in terms of its influence on economic progress and availability of
+                        resources such as health and financial services. Identifying possible relationships between life expectancy and
+                        trade index could lead to the development of trade policies to spur growth, which can be facilitated through case 
+                        studies of existing nations with high life expectancies.
+                    </h3>
+                </div>
+
+                <button type="button" class="collapsible"> Data Issues </button>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <strong style = "font-family: Cambria;"> Missing data </strong>
+                            <ul style="list-style-type:circle;">
+                                <li style = "margin-top: 10px;">
+                                    <u> No data on overall ranking:</u> While the context provided mentioned that the 30 countries shown in the
+                                    visualization are major economies, there is <strong> no data provided on their overall STI ranking in the visualization</strong>.  
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+    
+                <button type="button" class="collapsible"> Idiom Issues </button>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <strong style = "font-family: Cambria;"> Visual clutter </strong>
+                            <ul style="list-style-type:circle;">
+                                <li style = "margin-top: 10px;">
+                                    <u> Too many categories:</u> The visualization of life expectancy data from 30 different countries in the form of
+                                    sequentially colour-coded <strong>(i) geographic area of each nation </strong> and <strong> (ii) bars</strong> could contribute 
+                                    to <strong> increased cognitive load</strong> due to <strong> extra complexity</strong>.
+                                </li>
+                                <li style = "margin-top: 10px;">
+                                    <u> Use of geographic areas of nations:</u> While the illustration of the geographic areas of each nation contributes to
+                                    the aesthetic appeal, it might also <strong> contribute to unnecessary complexity</strong>, and is perhaps <strong> redundant given
+                                    the bars at the bottom of the visualization</strong>.
+                                </li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li>
+                            <strong style = "font-family: Cambria;"> Data encoding </strong>
+                            <ul style="list-style-type:circle;">
+                                <li style = "margin-top: 10px;">
+                                    <u> Use of a sequential colour coding:</u> Life expectancy data is quantitative data, and while the sequential
+                                    colour coding used could be viable (i.e. magnitude channel), the <strong> shades of blue used are difficult to differentiate</strong>.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                <button type="button" class="collapsible"> Possible Improvements </button>
+                <div class="content">
+                    <h3> 
+                        Alternative data encoding methods
+                    </h3>
+                    <ul>
+                        <li>
+                            <strong style = "font-family: Cambria; color: rgb(82, 82, 244);"> Use a single element: </strong>
+                            Instead of using both colour and height of the bar to encode the data, using just the <strong> height (vertical spatial magnitude
+                            channel) would suffice</strong>, especially since the <strong> colours used are difficult to differentiate</strong>, and the <strong> countries are already
+                            ranked in descending order</strong>.
+                        </li>
+                        <br>
+                        <li>
+                            <strong style = "font-family: Cambria; color: rgb(82, 82, 244);"> Use an ordered bar chart: </strong>
+                            Encode the <strong> life expectancy data as a vertical spatial magnitude channel (height of bars)</strong>, while <strong> ordering the bars in descending order
+                            of overall STI ranking</strong>.
+                        </li>
+                    </ul>
+                    <h3> 
+                        Use of an interactive chart
+                    </h3>
+                    <ul>
+                        <li>
+                            <strong style = "font-family: Cambria; color: rgb(82, 82, 244);"> Addition of interactive elements: </strong>
+                            Use of an <strong> interactive world map</strong>, where <strong> tooltips with life expectancy data and overall STI of each nation, and their ranks in terms of 
+                            each are embedded</strong>. This could provide greater clarity when users toggle using their mouse.
+                                
+                        </li>
+                    </ul>
+                </div>  
+            </div>
+        </div>
+
+        <br>
+
+        <footer> 
+            <h4> 
+                Visualizations retrieved from 
+                <a href = "https://www.visualcapitalist.com/"> Visual Capitalist </a>.  
+            </h4>
+
+            <h4> 
+                02.526 IDV - Assignment 2 | By kkjy99
+            </h4>
+        </footer>
+
+        <script src = "script.js">
+        </script>
+    </body>
+    
+</html>
+</html>
